@@ -1,7 +1,6 @@
-name: Jekflix | My Page | Perfeton
-title: Jekflix | A blog theme for Jekyll | MY page 
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Perfeton - Not only tech blog
+title: "Perfeton | Blog: IT, Tech, Crypto and more"
+description: "Perfeton is the blog about: IT, Tech, Crypto and more" 
 tags:
   - blog
   - template
@@ -18,7 +17,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: synk@poczta.onet.pl
+# email: e-mail
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
