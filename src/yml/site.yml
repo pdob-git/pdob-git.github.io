@@ -1,5 +1,5 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
+name: Jekflix | My Page | Perfeton
+title: Jekflix | A blog theme for Jekyll | MY page 
 description: Jekflix is a template for Jekyll inspired by Netflix and made by
   Thiago Rossener.
 tags:
@@ -18,9 +18,10 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: synk@poczta.onet.pl
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+# My form https://formspree.io/f/xbjnjejl
+formspree_form_id: xbjnjejl
