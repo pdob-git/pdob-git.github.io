@@ -1,6 +1,3 @@
-#------------ NOT USED --------------
-# edit files in /src/yml instead
-#------------------------------------
 # Site Settings
 name: Jekflix | My Page | Perfeton
 title: Jekflix | A blog theme for Jekyll | MY page 
@@ -22,7 +19,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: e-mail
+email: synk@poczta.onet.pl
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -33,12 +30,12 @@ formspree_form_id: xbjnjejl
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: pdob-git
+#facebook_username: facebook_username
+#twitter_username: twitter_username
+#instagram_username: instagram_username
+#linkedin_username: linkedin_username
+#medium_username: medium_username
 
 
 # Posts Settings
