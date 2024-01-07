@@ -17,29 +17,29 @@ A theme for Jekyll inspired by Netflix panel for who loves movies and series and
 
 ## Features
 
-- [Live Search](docs/features.md#live-search)
-- [Estimated Reading Time](docs/features.md#estimated-reading-time)
-- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
-- ["New Post" tag](docs/features.md#new-post-tag)
-- [Load images on demand](docs/features.md#load-images-on-demand)
-- [Push Menu](docs/features.md#push-menu)
-- [SVG icons](docs/features.md#svg-icons)
-- [Shell script to create posts](docs/features.md#shell-script-to-create-posts)
-- [Tags page](docs/features.md#tags-page)
-- [About page](docs/features.md#about-page)
-- [Contact page](docs/features.md#contact-page)
-- [404 error page](docs/features.md#404-error-page)
-- [Feed RSS](docs/features.md#feed-rss)
-- [Disqus](docs/features.md#disqus) *(optional)*
-- [Featured post](docs/features.md#featured-post) *(optional)*
-- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
-- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
-- [Post recommendation](docs/features.md#post-recommendation)
-- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
-- [Translations](docs/setup.md#translations) **new!**
-- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
+- [Live Search](template_docs/docs/features.md#live-search)
+- [Estimated Reading Time](template_docs/docs/features.md#estimated-reading-time)
+- [Reading Progress Bar](template_docs/docs/features.md#reading-progress-bar) *(optional)*
+- ["New Post" tag](template_docs/docs/features.md#new-post-tag)
+- [Load images on demand](template_docs/docs/features.md#load-images-on-demand)
+- [Push Menu](template_docs/docs/features.md#push-menu)
+- [SVG icons](template_docs/docs/features.md#svg-icons)
+- [Shell script to create posts](template_docs/docs/features.md#shell-script-to-create-posts)
+- [Tags page](template_docs/docs/features.md#tags-page)
+- [About page](template_docs/docs/features.md#about-page)
+- [Contact page](template_docs/docs/features.md#contact-page)
+- [404 error page](template_docs/docs/features.md#404-error-page)
+- [Feed RSS](template_docs/docs/features.md#feed-rss)
+- [Disqus](template_docs/docs/features.md#disqus) *(optional)*
+- [Featured post](template_docs/docs/features.md#featured-post) *(optional)*
+- [Home page pagination](template_docs/docs/features.md#home-page-pagination) *(optional)*
+- [Posts sidebar](template_docs/docs/features.md#posts-sidebar) *(optional)*
+- [Paginated posts](template_docs/docs/features.md#paginated-posts) *(optional)*
+- ["Before you go" modal](template_docs/docs/features.md#before-you-go-modal) *(optional)*
+- [Post recommendation](template_docs/docs/features.md#post-recommendation)
+- [Netlify CMS ready](template_docs/docs/features.md#netlify-cms-ready)
+- [Translations](template_docs/docs/setup.md#translations) **new!**
+- [Math Expressions](template_docs/docs/features.md#math-expressions) *(optional)* **new!**
 
 ## SEO
 
@@ -96,7 +96,7 @@ Modify the variables above to change your theme colors.
 
 ### Site configuration
 
-Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
+Below are some properties you can change in your project `_config.yml`, check the [documentation](template_docs/docs/settings.md#settings) for more details.
 
 ```
 # Site Settings
@@ -188,13 +188,13 @@ plugins:
 
 In the case you're cloning this repo, follow those instructions:
 
-- [Environment](docs/setup.md#environment)
-- [Installing template](docs/setup.md#installing-template)
-- [Running local](docs/setup.md#running-local)
+- [Environment](template_docs/docs/setup.md#environment)
+- [Installing template](template_docs/docs/setup.md#installing-template)
+- [Running local](template_docs/docs/setup.md#running-local)
 
 ### Customization
 
-See the [settings documentation](docs/settings.md#settings) to customize layout, titles, social media and more.
+See the [settings documentation](template_docs/docs/settings.md#settings) to customize layout, titles, social media and more.
 
 ### Theme
 
@@ -208,9 +208,9 @@ To see how your website is going to look like when you deploy it, run `bundle ex
 
 ## Posts
 
-Use the [Front Matter properties](docs/post.md#front-matter-properties) to create posts.
+Use the [Front Matter properties](template_docs/docs/post.md#front-matter-properties) to create posts.
 
-> **Note:** In the case you're cloning this repo, you can use the available [script](docs/post.md#creating-a-post) to generate posts automatically.
+> **Note:** In the case you're cloning this repo, you can use the available [script](template_docs/docs/post.md#creating-a-post) to generate posts automatically.
 
 ## Questions?
 
