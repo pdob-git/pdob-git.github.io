@@ -19,8 +19,8 @@ menu:
     url: /feed.xml
 # email: e-mail
 # See: https://disqus.com/
-disqus_username: disqus_username
+#disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
-# My form https://formspree.io/f/xbjnjejl
-formspree_form_id: xbjnjejl
+# My form https://formspree.io/f/myyrzwya
+formspree_form_id: myyrzwya
