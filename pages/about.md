@@ -7,7 +7,8 @@ description: Some description.
 permalink: /about/
 ---
 
-<img src="/assets/img/perfeton_logo_full.svg" alt="Perfeton" width="400">
+<!-- <img src="/assets/img/perfeton_logo_full.svg" alt="Perfeton" width="400"> -->
+<img src="/assets/img/Perfeton_logo.svg" alt="Perfeton" width="400">
 
 # About Perfeton Blog
 
