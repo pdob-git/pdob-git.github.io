@@ -7,13 +7,25 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+<img src="/assets/img/perfeton_logo_full.svg" alt="Perfeton" width="400">
 
-# About
+# About Perfeton Blog
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi Here is Pablo,
+
+I decided to create blog to store and share knowledge I gather during my journey
+of exploring areas of expertise like programming and investing.
+During COVID-19 pandemia time I started learning programming in Java.
+Now my area of interest is evolving to consolide my Java knowledge,
+learn Python and start investing in general with some focus on Cruptocurrencies.
+
+As I'm building blog I also have to face some obstacles which have to be resolved.
+So You will find also some info on Fronend and Devops as I will be solving and documenting
+issues in my blog yourney.
+
+Sounds intresting? You are more than welcome read my posts and find something intersting for you.
+
+I also plan to share instruction how you can collaborate and get involved in writing the post for example.
+
+Regards,\
+Pablo form Perfeton.
