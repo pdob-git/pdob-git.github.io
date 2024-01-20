@@ -1,32 +1,25 @@
 ---
 layout: page
 menu: false
-date: '2020-02-27 01:53:59'
+date: "2020-02-27 01:53:59"
 title: About
 description: Some description.
 permalink: /about/
 ---
 
-<!-- <img src="/assets/img/perfeton_logo_full.svg" alt="Perfeton" width="400"> -->
-<img src="/assets/img/Perfeton_logo.svg" alt="Perfeton" width="400">
+<div class="about-img"><img  src="/assets/img/perfeton_logo_full_dark_text.svg" alt="Perfeton" width="500"></div>
 
 # About Perfeton Blog
 
-Hi Here is Pablo,
+Hi, here is Pablo.
 
-I decided to create blog to store and share knowledge I gather during my journey
-of exploring areas of expertise like programming and investing.
-During COVID-19 pandemia time I started learning programming in Java.
-Now my area of interest is evolving to consolide my Java knowledge,
-learn Python and start investing in general with some focus on Cruptocurrencies.
+I decided to create a blog to store and share knowledge that I gathered during my journey of exploring areas of expertise, such as programming and investing. During the COVID-19 pandemic, I started learning programming in Java. Now, my area of interest is evolving to consolidate my Java knowledge, learn Python, and start investing in general, with some focus on cryptocurrencies.
 
-As I'm building blog I also have to face some obstacles which have to be resolved.
-So You will find also some info on Fronend and Devops as I will be solving and documenting
-issues in my blog yourney.
+As I'm building the blog, I also have to face some obstacles that need to be resolved. So, you will also find some information on frontend and DevOps as I will be solving and documenting issues in my blog journey.
 
-Sounds intresting? You are more than welcome read my posts and find something intersting for you.
+Sounds interesting? You are more than welcome to read my posts and find something interesting for you.
 
-I also plan to share instruction how you can collaborate and get involved in writing the post for example.
+I also plan to share instructions on how you can collaborate and get involved in writing posts, for example.
 
 Regards,\
-Pablo form Perfeton.
+Pablo from Perfeton.
