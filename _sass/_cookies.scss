@@ -1,0 +1,88 @@
+.cookies {
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(128, 128, 128, 0.8);
+  bottom: 0px;
+  position: fixed;
+  z-index: 1;
+
+  p.cookie-text {
+    color: black;
+    margin: 5px auto;
+    vertical-align: middle;
+    background-color: rgba(179, 179, 179, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .cookies-top {
+    border: 0px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end; */
+    position: relative;
+  }
+
+  .cookies-main {
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+  }
+  .cookies-content {
+    border: 0px;
+   
+    vertical-align: middle;
+    height: auto;
+    margin: auto 20px;
+    padding: 2px 5px;
+    width: 100%;
+
+    align-self: center;
+  }
+
+  svg#svg-close {
+    width: 8px;
+    height: 8px;
+    margin: auto;
+    fill: white;
+  }
+
+  button {
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: auto 8px;
+
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  button#close {
+    padding: 2px;
+    padding-inline: 0px;
+    padding-block: 0px;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+
+    position: absolute;
+    right: 5px;
+    top: -8px;
+  }
+}
