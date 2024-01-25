@@ -10,6 +10,8 @@
     if (document.baseURI.includes("about") && element) {
       //Get y of element
       let y = element.getBoundingClientRect().top + window.scrollY;
+      y = y - 60;
+      console.log(y);
 
       function scrollToAboutHeading() {
         window.scroll({
@@ -28,6 +30,6 @@
       return;
     }
 
-    this.window.removeEventListener("load");
+    // this.window.removeEventListener("load");
   });
 })();
