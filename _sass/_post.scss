@@ -33,6 +33,10 @@
   overflow-x: auto;
   padding: rem(40px) 0;
 
+  @media (max-width: 500px) {
+    margin-top: 100px;
+  }
+
   &.fullwidth {
     padding: rem(60px) rem(10px) 0;
   }

@@ -7,7 +7,7 @@ description: About Page.
 permalink: /about/
 ---
 
-<div class="about-img"><img  src="/assets/img/perfeton_logo_full_dark_text.svg" alt="Perfeton" width="500"></div>
+<div class="about-img"><img  src="/assets/img/perfeton_logo_full_dark_text_500.png" alt="Perfeton" width="500"></div>
 
 # About Perfeton Blog
 
