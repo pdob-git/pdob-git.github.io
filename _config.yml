@@ -20,7 +20,7 @@ menu:
     url: /feed.xml
 # email: e-mail
 # See: https://disqus.com/
-#disqus_username: disqus_username
+disqus_username: perfeton
 # Contact Form Setting
 # See: https://formspree.io/
 # My form https://formspree.io/f/myyrzwya
