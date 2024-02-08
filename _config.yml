@@ -106,7 +106,10 @@ exclude: [
   'Gemfile',
   'Gemfile.lock',
   'gulpfile.js',
-  'README.md'
+  'README.md',
+  'admin/',
+  'sample_posts/',
+  'draft/'
 ]
 
 # Theme
