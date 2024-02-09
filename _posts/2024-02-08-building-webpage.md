@@ -5,7 +5,7 @@ title: "Building Webpage"
 subtitle: "What choices do we have?"
 description: "An article describing different options for building a webpage."
 image: /assets/img/uploads/building_web_page_big.png
-optimized_image: /assets/img/uploads/building_web_page_small.png
+optimized_image: /assets/img/uploads/building_web_page_small_scaled.png
 category: blog
 tags:
   - "web" 

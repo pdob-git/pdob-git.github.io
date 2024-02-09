@@ -72,6 +72,18 @@
       margin-top: rem(50px);
     }
 
+    a {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
     .button {
       display: inline-block;
       font-size: rem(18px);
