@@ -1,8 +1,14 @@
 # pdob-git.github.io #
 Repository for github page
 
+## DONE ##
+- Correct Perfeton Full Logo to match with no letters - DONE
+- Proof read About page - DONE
+- cookie panel, terms and conditions DONE
+
 ## TO DO ##
-- Correct Perfeton Full Logo to match with no letters
-- Proof read About page
-- cookie panel, terms and conditions
+- Article First Page
+- update Social links
+
+## PARKING LOT ##
 - translation
