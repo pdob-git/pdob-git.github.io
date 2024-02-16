@@ -23,10 +23,10 @@ site.show_hero and paginator == nil or paginator.page == 1 %} {% assign offset =
         {% if site.date_format == nil %} {{ featured.date | date: "%m.%d.%Y" }}
         {% else %} {{ featured.date | date: site.date_format }} {% endif %}
       </time>
-      <a href="{{ featured.url | prepend: site.baseurl }}">
+      <!-- <a href="{{ featured.url | prepend: site.baseurl }}"> -->
         <h1 class="title">{{ featured.title }}</h1>
         <p class="description">{{ featured.subtitle }}</p>
-      </a>
+      <!-- </a> -->
       <div class="buttons">
         <a
           href="{{ featured.url | prepend: site.baseurl }}"
