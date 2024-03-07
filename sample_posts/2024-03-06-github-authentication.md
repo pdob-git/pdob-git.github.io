@@ -23,7 +23,7 @@ If you are following articles about GitHub Pages you might have faced issues wit
 GitHub has switched off ability to login through password to its services. The only way to login now to push changes is by using access tokens and ssh. So let's explain what it is.
 
 ## Access Tokens ##
-In computer systems, an access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application.[1] In some instances, one may be asked to enter an access token (e.g. 40 random characters) rather than the usual password (it therefore should be kept secret just like a password). 
+In computer systems, an access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application. In some instances, one may be asked to enter an access token (e.g. 40 random characters) rather than the usual password (it therefore should be kept secret just like a password). 
 
 Access tokens are used in token-based authentication to allow an application to access an API. The application receives an access token after a user successfully authenticates and authorizes access, then passes the access token as a credential when it calls the target API. The passed token informs the API that the bearer of the token has been authorized to access the API and perform specific actions specified by the Scope that was granted during authorization.
 

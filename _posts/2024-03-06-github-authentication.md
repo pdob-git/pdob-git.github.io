@@ -19,25 +19,25 @@ paginate: false
 # GitHub Authentication #
 
 ## Introduction ##
-If you are following articles about GitHub Pages you might have faced issues with logging to GitHub from terminal to clone, pull na push changes.\
-GitHub has switched off ability to login through password to its services. The only way to login now to push changes is by using access tokens and ssh. So let's explain what it is.
+If you are following articles about GitHub Pages you might have faced issues with logging into GitHub from the terminal to clone, pull, and push changes.\
+GitHub has switched off the ability to log in through a password to its services. The only way to log in now to push changes is by using access tokens and ssh. So let's explain what it is.
 
 ## Access Tokens ##
-In computer systems, an access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application.[1] In some instances, one may be asked to enter an access token (e.g. 40 random characters) rather than the usual password (it therefore should be kept secret just like a password). 
+In computer systems, an access token contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application. In some instances, one may be asked to enter an access token (e.g. 40 random characters) rather than the usual password (it therefore should be kept secret just like a password). 
 
 Access tokens are used in token-based authentication to allow an application to access an API. The application receives an access token after a user successfully authenticates and authorizes access, then passes the access token as a credential when it calls the target API. The passed token informs the API that the bearer of the token has been authorized to access the API and perform specific actions specified by the Scope that was granted during authorization.
 
-In addition, if you have chosen to allow users to log in through an Identity Provider (IdP), such as Facebook, the IdP will issue its own access token to allow your application to call the IDP's API. For example, if your user authenticates using Facebook, the access token issued by Facebook can be used to call the Facebook Graph API. These tokens are controlled by the IdP and can be issued in any format.
+In addition, if you have chosen to allow users to log in through an Identity Provider (IDP), such as Facebook, the IDP will issue its access token to allow your application to call the IDP's API. For example, if your user authenticates using Facebook, the access token issued by Facebook can be used to call the Facebook Graph API. These tokens are controlled by the IDP and can be issued in any format.
 
-Tokens usually has some information about the person who logged in (for example login id, timestamp, etc.) coded in special format or are encoded using custom (specific for provider) cryptographic algorithm.\
+Tokens usually have some information about the person who logged in (for example login id, timestamp, etc.) coded in a special format or are encoded using a custom (specific for the provider) cryptographic algorithm.\
 More reading [Wikipedia - access token](https://en.wikipedia.org/wiki/Access_token)
 
 ## SSH - Secure Shell ##
-SSH is a software package that enables secure system administration and file transfers over insecure networks. It is used in nearly every data center and in every large enterprise.
+SSH is a software package that enables secure system administration and file transfers over insecure networks. It is used in nearly every data center and every large enterprise.
 
-The SSH protocol uses encryption to secure the connection between a client and a server. All user authentication, commands, output, and file transfers are encrypted to protect against attacks in the network. For details of how the SSH protocol works, see the [protocol page](https://en.wikipedia.org/wiki/Secure_Shell). To understand the SSH File Transfer Protocol, see the [SFTP page](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol).
+The SSH protocol uses encryption to secure the connection between a client and a server. All user authentication, commands, output, and file transfers are encrypted to protect against attacks in the network. For details on how the SSH protocol works, see the [protocol page](https://en.wikipedia.org/wiki/Secure_Shell). To understand the SSH File Transfer Protocol, see the [SFTP page](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol).
 
-The protocol works in the client-server model, which means that the connection is established by the SSH client connecting to the SSH server. The SSH client drives the connection setup process and uses public key cryptography to verify the identity of the SSH server. After the setup phase the SSH protocol uses strong symmetric encryption and hashing algorithms to ensure the privacy and integrity of the data that is exchanged between the client and server.
+The protocol works in the client-server model, which means that the connection is established by the SSH client connecting to the SSH server. The SSH client drives the connection setup process and uses public key cryptography to verify the identity of the SSH server. After the setup phase, the SSH protocol uses strong symmetric encryption and hashing algorithms to ensure the privacy and integrity of the data that is exchanged between the client and server.
 
 SSH was designed on Unix-like operating systems, as a replacement for Telnet and for unsecured remote Unix shell protocols, such as the Berkeley Remote Shell (rsh) and the related rlogin and rexec protocols, which all use insecure, plaintext methods of authentication, like passwords. 
 
@@ -48,34 +48,36 @@ As of fall 2021, GitHub will no longer allow usage of a password alone. One of t
 
 You can clone a repository using HTTPS like this:
 
+```bash
 git clone https://github.com/ACCOUNT/REPO
+```
 
 You'll be asked to enter your username and password. You should provide your personal access token for GitHub.
 
 ### Generating Token ###
 
-You can create a token using following instructions:
+You can create a token using the following instructions:
 - Verify your e-mail if you haven't done it yet. This task is very straight forward and you can find instructions [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address) 
-- Go to your account settings. Click your avatar on main GitHub page of your profile (right op corner) and in the menu on the right click **Settings**. This is fourth option from the bottom (per user interface on 2024 :-) ). You can navigate to settings also directly:\
+- Go to your account settings. Click your avatar on the main GitHub page of your profile (right top corner) and in the menu on the right click **Settings**. This is the fourth option from the bottom (per user interface in 2024 :-) ). You can navigate to settings also directly:\
 [https://github.com/settings/profile](https://github.com/settings/profile)
 - In the left sidebar, click **Developer settings**
 - In the left sidebar, under **Personal access tokens**, click **Fine-grained tokens**.
 - Click Generate new token.
-- Under Token name, enter a name for the token.
+- Under the Token name, enter a name for the token.
 - Under Expiration, select an expiration for the token.
 - Optionally, under Description, add a note to describe the purpose of the token.
 - Under Resource owner, select a resource owner. Most likely it will be your GitHub username.
-- Under Repository access, select which repositories you want the token to access. For your own private usage you can selecte all.
+- Under Repository access, select which repositories you want the token to access. For your private usage, you can select all.
 - Under **Permissions**, select which permissions to grant the token. Depending on which resource owner and which repository access you specified, there are repository, organization, and account permissions. You should choose the minimal permissions necessary for your needs.\
-If you don't know what permission you need you can experiment or at the beginning select all. Detailed information about this topic are available in following article in GitHub docuemntation -"[Permissions required for fine-grained personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)".
+If you don't know what permission you need you can experiment or at the beginning select all. Detailed information about this topic is available in the following article in GitHub documentation -"[Permissions required for fine-grained personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)".
 - Click **Generate Token**.
-- Copy generated token and store it in safe place. Access token should be secured the same way as passwords.
+- Copy the generated token and store it in a safe place. Access tokens should be secured the same way as passwords.
 
 More about Github access tokens can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 ### Using Access Token with Git and GitHub ###
 
-As mentioned above access tokens are used instead of password during HTTPS connection with GitHub. Simply enter your access token instead of password:
+As mentioned above access tokens are used instead of passwords during HTTPS connection with GitHub. Simply enter your access token instead of your password:
 
 ```bash
 $ git clone https://github.com/USERNAME/REPO.git
@@ -83,7 +85,7 @@ Username: YOUR_USERNAME
 Password: YOUR_PERSONAL_ACCESS_TOKEN
 ```
 
-To avoid the need to provide access token everytime you clone, pull or push changes to repository you can cache access token.
+To avoid the need to provide an access token every time you clone, pull, or push changes to the repository you can cache the access token.
 
 ```bash
 # in memory:
@@ -100,7 +102,7 @@ To set the cache in memory to last for a particular amount of time, here 3600 se
 git config --global credential.helper 'cache --timeout=3600'
 ```
 
-If you want to use different credential helper for every repositorys, you can omit the '--global' flag.
+If you want to use a different credential helper for every repository, you can omit the '--global' flag.
 
 To check if the credential helper is set up:
 
@@ -108,20 +110,20 @@ To check if the credential helper is set up:
 git config --get credential.helper
 ```
 
-**NOTE:** I will provide more information on recomended solition for credential helper on Linux later. I will update this article or write new one and refer to it from here.
+**NOTE:** I will provide more information on the recommended solution for credential helper on Linux later. I will update this article or write a new one and refer to it from here.
 
 ## GitHub via SSH ##
 
 To use SSH, you need to put your SSH public key in your GitHub account.
 
-### Gerating SSH key ###
+### Generating SSH key ###
 
-Before placing public key into GitHub you need to generate it. If you have proper key already which can be used to authenticate to GitHub you can omit this step. However, the best approach is to have different pair of private and pubic key for every service.
+Before placing a public key into GitHub you need to generate it. If you have a proper key already which can be used to authenticate to GitHub you can omit this step. However, the best approach is to have different pairs of private and public keys for every service.
 
 Instructions below describe steps to generate SSH keys.
 
-- Open terminal / console
-- Run command below and replace e-mail with your GitHub e-mail address.
+- Open terminal/console
+- Run the command below and replace e-mail with your GitHub e-mail address.
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -133,15 +135,17 @@ This creates a new SSH key, using the provided email as a label.
 > Generating public/private ALGORITHM key pair.
 ```
 
-When you're prompted to "Enter a file in which to save the key", provide file name for the key.\
-**NOTE:** Be careful. If you accept default name */home/YOU/.ssh/id_ALGORITHM* you can overwrite existing key and lose access to service connected with this key.
+When you're prompted to "Enter a file in which to save the key", provide the file name for the key.\
+**NOTE:** Be careful. If you accept the default name:\
+*/home/YOU/.ssh/id_ALGORITHM* \
+you can overwrite the existing key and lose access to the service connected with this key.
 So special attention is required in this step.
 
-- At the prompt, type a secure passphrase. Passphrase is simply password to use the key.
+- At the prompt, type a secure passphrase. The passphrase is simply a password to use the key.
 
 ```bash
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
-> Enter same passphrase again: [Type passphrase again]
+> Enter the same passphrase again: [Type passphrase again]
 ```
 
 - Add your SSH private key to the ssh-agent
@@ -154,7 +158,7 @@ ssh-add ~/.ssh/private_key_filename
 
 Your public key file is found in the ~/.ssh directory on a Mac or Linux machine and will generally be a file ending in .pub. Go to [https://github.com/settings/keys](https://github.com/settings/keys) and copy/paste your public key from the public key file.
 
-You can then clone a repository using syntax of either of the following types:
+You can then clone a repository using the syntax of either of the following types:
 
 ```bash
 git clone git@github.com:ACCOUNT/REPO.git
@@ -176,4 +180,5 @@ ssh://github.com/username/reponame
 
 ## Summary ##
 
-We have reviewed the ways to authenticate to GitHub using both ways HTTPS and SSH. Now you should be able to trouble shot issues with authentication during intercation with remote repositiories on GitHub.
+We have reviewed the ways to authenticate to GitHub using both ways HTTPS and SSH. Now you should be able to troubleshoot issues with authentication during interaction with remote repositories on GitHub.
+
