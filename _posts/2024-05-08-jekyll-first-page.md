@@ -2,7 +2,7 @@
 date: 2024-05-08 18:37:55
 layout: post
 title: "Jekyll First Page"
-subtitle: "GitHub Command Line Interface"
+subtitle: "How to make first Jekyll Page"
 description: "Easier authentication and much much more" 
 image: /assets/img/uploads/jekyll_first_page/jekyll-logo-first-page_big.png
 optimized_image: /assets/img/uploads/jekyll_first_page/jekyll-logo-first-page_small.png
